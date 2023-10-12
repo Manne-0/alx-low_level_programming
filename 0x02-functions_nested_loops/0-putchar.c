@@ -1,14 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * _puchar: function that calls the standard putchar function
- * c: a variable that takes a character input
- * main - Entry Point
- * Return: always 0 (success)
+ * main - Entry point
+ *
+ * Return: always 0
  */
-void _putchar(char c)
-{
-	putchar(c);
-}
 int main(void)
 {
 	_putchar('-');
