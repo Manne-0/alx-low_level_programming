@@ -16,17 +16,17 @@ int main(void)
 		int mul5 = n % 5;
 		int mul15 = n % 15;
 
-		if (mul3 == 0)
+		if (mul15 == 0)
+		{
+			printf("FizzBuzz ");
+		}
+		else if (mul3 == 0)
 		{
 			printf("Fizz ");
 		}
 		else if (mul5 == 0)
 		{
 			printf("Buzz ");
-		}
-		else if (mul15 == 0)
-		{
-			printf("FizzBuzz ");
 		}
 		else
 		{
