@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <sys/types.h>
 /**
- * read_textfile - read a text file 
+ * read_textfile - read a text file
  * @filename: file
  * @letters: number of bytes to be read
  * Return: number of bytes read
